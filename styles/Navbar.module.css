@@ -1,0 +1,33 @@
+.nav {
+    background-color: black;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin: auto;
+    color: white;
+    vertical-align: middle;
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    max-height: 100px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    margin: auto 0;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    width: 25px;
+    background-color: white;
+    border: 1.5px solid white;
+    margin: 0.3rem 0;
+}
