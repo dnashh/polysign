@@ -24,12 +24,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id='know-more'>
+        {/* <section id='know-more'>
           <div className='know-more-wrapper'>
               <h1>How it Works?</h1>  
           </div>
-        </section>
-        <div className="sizedbox"></div>
+        </section> */}
+        {/* <div className="sizedbox"></div> */}
       </main>
     </div>
   )
