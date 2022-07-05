@@ -153,16 +153,20 @@ button {
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
+  width: 100%;
+  max-width: 400px;
 }
 
 .flow-wrap {
   min-height: 200px;
 }
 
-input[type="file"]  {
-  width: 200px;
-  height: 40px;
-  border: 2px solid black;
+input {
+  width: inherit;
+  height: 50px;
+  font-size: 1.2rem;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 label {
@@ -182,4 +186,41 @@ label {
   background-color: rgba(210, 180, 31, 0.799);
   margin: 0 auto;
   padding: 10px;
+}
+
+.preview-img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.nft-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin: 10 auto;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgba(210, 180, 31, 0.799);
+  margin: auto;
+  padding: 10px;
+}
+
+.nft-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  background-color: white;
 }

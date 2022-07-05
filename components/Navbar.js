@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   const { connectWallet, address, error, disconnectWallet, balance } = useWeb3();
 
-  balance && console.log(balance)
+  // balance && console.log(balance)
   
   return (
     <nav className={styles.nav}>
