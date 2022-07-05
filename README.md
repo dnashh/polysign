@@ -2,6 +2,8 @@
 
 A simple web app for signing and verifying documents.
 
+Built with [Next.js](https://nextjs.org/).
+
 ---
 
 ## Getting Started
